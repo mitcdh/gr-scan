@@ -24,7 +24,7 @@
 
 #include <gnuradio/block.h>
 #include <gnuradio/io_signature.h>
-#include <osmosdr/source_c.h>
+#include <osmosdr/source.h>
 
 
 class scanner_sink : public gr_block

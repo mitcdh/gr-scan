@@ -21,10 +21,10 @@
 #include <stdint.h>
 
 #include <gnuradio/top_block.h>
-#include <osmosdr/source_c.h>
+#include <osmosdr/source.h>
 #include <gnuradio/blocks/stream_to_vector.h>
-#include <gnuradio/fft/fft_vcc_fftw.h>
-#include <gnuradio/blocks/complex_to_xxx.h>
+#include <gnuradio/fft/fft_vcc.h>
+#include <gnuradio/blocks/complex_to_mag_squared.h>
 #include <gnuradio/filter/single_pole_iir_filter_ff.h>
 #include <gnuradio/blocks/nlog10_ff.h>
 #include "scanner_sink.hpp"
