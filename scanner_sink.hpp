@@ -22,9 +22,9 @@
 
 #include <boost/shared_ptr.hpp>
 
-#include <gr_block.h>
-#include <gr_io_signature.h>
-#include <osmosdr_source_c.h>
+#include <gnuradio/block.h>
+#include <gnuradio/io_signature.h>
+#include <osmosdr/source_c.h>
 
 
 class scanner_sink : public gr_block

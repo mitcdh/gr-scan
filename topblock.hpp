@@ -20,13 +20,13 @@
 #include <cmath>
 #include <stdint.h>
 
-#include <gr_top_block.h>
-#include <osmosdr_source_c.h>
-#include <gr_stream_to_vector.h>
-#include <gr_fft_vcc_fftw.h>
-#include <gr_complex_to_xxx.h>
-#include <gr_single_pole_iir_filter_ff.h>
-#include <gr_nlog10_ff.h>
+#include <gnuradio/top_block.h>
+#include <osmosdr/source_c.h>
+#include <gnuradio/blocks/stream_to_vector.h>
+#include <gnuradio/fft/fft_vcc_fftw.h>
+#include <gnuradio/blocks/complex_to_xxx.h>
+#include <gnuradio/filter/single_pole_iir_filter_ff.h>
+#include <gnuradio/blocks/nlog10_ff.h>
 #include "scanner_sink.hpp"
 
 class TopBlock : public gr_top_block
